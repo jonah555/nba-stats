@@ -7,10 +7,6 @@ p {
     line-height: 1.5;
 }
 
-img {
-    max-height: 400px;
-}
-
-.highlight {
-    color: red;
+h1 {
+    text-align: center;
 }
