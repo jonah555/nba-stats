@@ -1,4 +1,5 @@
 # NBA STATS
+Made by: Michael Lu, Jonah Wu and Lance Cheng
 
 ## About / Synopsis
 
