@@ -1,30 +1,93 @@
-# nba-stats
+# NBA STATS
 
-## Proposal 
+## About / Synopsis
 
-### Problem/Data Domain
-Your proposal will contain a short description of the topic domain and the information/data you'll be presenting, explaining the problem to someone who doesn't know anything about it! Your description should include enough information to:
+* What is it, what does it do / Abstract
+* Project status: working/prototype
+* Nuxeo Support
 
-1. Provide an overview of the general topic or question of interest (e.g., "what is meant by 'homelessness' and why is it a particular problem in Seattle?").
+See real examples:
 
-2. Identify an information technology problem in that space (e.g., "what information problems related to homelessness are unaddressed?").
+* <https://github.com/nuxeo/nuxeo/blob/master/README.md>
+* <https://github.com/nuxeo/nuxeo-drive/blob/master/README.md>
+* <https://github.com/nuxeo/nuxeo-sdk-ios/blob/master/README.md>
 
-3. Identify previous or existing attempts to solve this problem (e.g., "what other web apps attempt to address homelessness? What has already been tried?")
+## Table of contents
 
-In short: let us know what you are interested in, and identify a problem that you think needs solving (and that might be amenable to a technological intervention) while also considering what has come before.
+Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 
-While social injustices are the problems most worth attacking, your project could also address smaller, or more personal "problems". What is something that makes your life worse, and that you think that a web app might be able to help with?
-This description should be 1-2 paragraphs (~150-250 words) in length. Your overview should explain "what" the problem is and "why" it needs addressing (including why any currently existing apps are insufficient). You will need to include references to other resources to help clarify your explanation of this problem.
+> * [Title / Repository Name](#title--repository-name)
+>   * [About / Synopsis](#about--synopsis)
+>   * [Table of contents](#table-of-contents)
+>   * [Installation](#installation)
+>   * [Usage](#usage)
+>     * [Screenshots](#screenshots)
+>     * [Features](#features)
+>   * [Code](#code)
+>     * [Content](#content)
+>     * [Requirements](#requirements)
+>     * [Limitations](#limitations)
+>     * [Build](#build)
+>     * [Deploy (how to install build product)](#deploy-how-to-install-build-product)
+>   * [Resources (Documentation and other links)](#resources-documentation-and-other-links)
+>   * [Contributing / Reporting issues](#contributing--reporting-issues)
+>   * [License](#license)
+>   * [About Nuxeo](#about-nuxeo)
 
-### App Description
-Be sure and review the overall project requirements for more details about the scope and requirements for your project.
+## Installation
 
-Your proposal will also contain a description of the interactive information app that you will create to help address your chosen problem (a proposed "solution"). Think about what kind of a website would help with this problem, and how people would use that website to make their lives better in some way. What is the "use case" or "user story" (Links to an external site.) for the app?
+Sample:
 
-Remember that this app will be interactive—it will need to contain buttons, forms, etc that let the user provide some forms of input and modify how data is presented to them. Thus your app will need to do more than just be something for the user to read; it needs to give the user something to do.
-Your app should also be described in 2-3 paragraphs. In particular, you should make sure to address:
+* From the Nuxeo Marketplace: install [the Sample Nuxeo Package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-sample).
+* From the command line: `nuxeoctl mp-install nuxeo-sample`
 
-1. Who are the users of the application? That is, who will be accessing the website?
-2. What kind of information will the users be viewing? If you're drawing data form an external source (a csv file or an API), include a link and citation to that data.
-3. What will the users do with the web app? What kind of interactions are you expecting to provide? Note that your app will need to support two forms of interaction; be sure to explain what both of them are!
-4. How will using this app help to solve your chosen problem? That is, how is it a solution to the problem you described?
+## Usage
+
+### Screenshots
+
+### Features
+
+## Code
+
+[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=/nuxeo/addons_nuxeo-sample-project-master)](https://qa.nuxeo.org/jenkins/job/nuxeo/job/addons_nuxeo-sample-project-master/)
+
+### Content
+
+Description, sub-modules organization...
+
+### Requirements
+
+See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
+
+Sample: <https://github.com/nuxeo/nuxeo/blob/master/nuxeo-distribution/README.md>
+
+### Limitations
+
+Sample: <https://github.com/nuxeo-archives/nuxeo-features/tree/master/nuxeo-elasticsearch>
+
+### Build
+
+    mvn clean install
+
+Build options:
+
+* ...
+
+### Deploy (how to install build product)
+
+Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform:
+
+ > Copy the built artifacts into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template.
+
+## Resources (Documentation and other links)
+
+## Contributing / Reporting issues
+
+Link to JIRA component (or project if there is no component for that project). Samples:
+
+* [Link to component](https://jira.nuxeo.com/issues/?jql=project%20%3D%20NXP%20AND%20component%20%3D%20Elasticsearch%20AND%20Status%20!%3D%20%22Resolved%22%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC)
+* [Link to project](https://jira.nuxeo.com/secure/CreateIssue!default.jspa?project=NXP)
+
+## License
+
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
