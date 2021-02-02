@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Jonah Wu, Michael Lu, Lance Cheng">
+    <meta name="description" content="NBA stats">
+    <title>NBA Stats</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <a class="nav-logo" href="#"><em class="fas fa-basketball-ball"></em> NBA Stats</a>
+            <div class="nav-list">
+                <ul class="nav-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="fantasy.html">Fantasy</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Coming Soon...</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="header headerIndex">
+        <h1>NBA Players Stats</h1>
+    </div>
+    <div class="table-form">
+        <form class="form-inline">
+            <div>
+                <label for="search">Player Name:</label>
+                <input type="search" id="search" placeholder="Enter Name" name="search">
+            </div>
+            <div>
+                <label for="team">Choose a team:</label>
+                <select id="team" name="team">
+                    <option value="ALL">All</option>
+                    <option value="ATL">Atlanta Hawks</option>
+                    <option value="BOS">Boston Celtics</option>
+                    <option value="BRK">Brooklyn Nets</option>
+                    <option value="CHI">Chicago Bulls</option>
+                    <option value="CHO">Charlotte Hornets</option>
+                    <option value="CLE">Cleveland Cavaliers</option>
+                    <option value="DAL">Dallas Mavericks</option>
+                    <option value="DEN">Denver Nuggets</option>
+                    <option value="DET">Detroit Pistons</option>
+                    <option value="GSW">Golden State Warriors</option>
+                    <option value="HOU">Houston Rockets</option>
+                    <option value="IND">Indiana Pacers</option>
+                    <option value="LAC">LA Clippers</option>
+                    <option value="LAL">Los Angeles Lakers</option>
+                    <option value="MEM">Memphis Grizzlies</option>
+                    <option value="MIA">Miami Heat</option>
+                    <option value="MIL">Milwaukee Bucks</option>
+                    <option value="MIN">Minnesota Timberwolves</option>
+                    <option value="NOP">New Orleans Pelicans</option>
+                    <option value="NYK">New York Knicks</option>
+                    <option value="OKC">Oklahoma City Thunder</option>
+                    <option value="ORL">Orlando Magic</option>
+                    <option value="PHI">Philadelphia 76ers</option>
+                    <option value="PHO">Phoenix Suns</option>
+                    <option value="POR">Portland Trail Blazers</option>
+                    <option value="SAC">Sacramento Kings</option>
+                    <option value="SAS">San Antonio Spurs</option>
+                    <option value="TOR">Toronto Raptors</option>
+                    <option value="UTA">Utah Jazz</option>
+                    <option value="WAS">Washington Wizards</option>
+                    <option value="TOT">Players who played for multiple teams</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="PG" name="PG" value="PG">
+                <label for="PG">PG</label>
+                <input type="checkbox" id="SG" name="SG" value="SG">
+                <label for="PG">SG</label>
+                <input type="checkbox" id="SF" name="SF" value="SF">
+                <label for="PG">SF</label>
+                <input type="checkbox" id="PF" name="PF" value="PF">
+                <label for="PG">PF</label>
+                <input type="checkbox" id="C" name="C" value="C">
+                <label for="PG">C</label>
+            </div>
+        </form>
+    </div>
+    <div class="data-table">
+        <img src="img/table.png" alt="NBA players data">
+    </div>
+    <div class="imgDiv">
+    </div>
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="https://www.basketball-reference.com/leagues/NBA_2020_per_game.html">NBA Stats</a></li>
+                            <li><a href="https://www.basketball-reference.com/leagues/NBA_2020_per_game.html">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li><a href="https://www.basketball-reference.com/leagues/NBA_2020_per_game.html">Facebook</a></li>
+                            <li><a href="https://www.basketball-reference.com/leagues/NBA_2020_per_game.html">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3">
+                        <h3>Terms</h3>
+                        <ul>
+                            <li><a href="https://www.basketball-reference.com/leagues/NBA_2020_per_game.html">Terms of Use</a></li>
+                            <li><a href="https://www.basketball-reference.com/leagues/NBA_2020_per_game.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <p class="copy-right">NBA Stats &#169 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

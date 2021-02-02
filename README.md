@@ -1,5 +1,5 @@
 # NBA STATS
-Made by: Michael Lu, Jonah Wu and Lance Cheng
+<https://jonah555.github.io/nba-stats/>
 
 ## About / Synopsis
 
